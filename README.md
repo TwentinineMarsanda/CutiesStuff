@@ -2,7 +2,7 @@
 
 
 Homepage:
-![Screenshot](homepage.png)
+![Screenshot](home.png)
 
 Products Page:
 ![Screenshot](products.png)
