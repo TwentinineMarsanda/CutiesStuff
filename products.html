@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products.css">
+    <link rel="icon" type="image/x-icon" href="images/heart.png">
+    <title>Products - Cuties Stuff</title>
+</head>
+<body>
+    <header>
+        <h1>Cuties Stuff</h1>
+        <h3>Our Product Catalogue</h3>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                </ul>
+            </nav>
+            <div>
+                <input type="text" id="searchInput" placeholder="Search Product">
+                <button onclick="modulProduk.searchAndDisplay()">Search</button>
+            </div>
+        </div>
+    </header>
+    
+    <main id="productList">
+        <!-- Product items will be displayed here -->
+    </main>
+
+    <script src="modulProduk.js"></script>
+</body>
+</html>

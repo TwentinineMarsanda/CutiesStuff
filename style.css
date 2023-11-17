@@ -1,0 +1,76 @@
+*         header{
+                background-image: url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_79603-1847.jpg?w=1060&t=st=1698213916~exp=1698214516~hmac=1204539a4b11a653f170d341f552cb0d5468f4d4c49e733307c21f96567aac47);
+                background-size: 100%;
+                background-position: 5px;
+                padding: 10px 10px 10px 100px;
+                text-align: center;
+                font-size: 20px;
+                color: whitesmoke
+                }
+
+            nav{
+                float: left;
+                width: 30%;
+                height: 500px; 
+                background: pink;
+                padding: 16px;
+                }
+
+            nav ul{
+                list-style-type: none;
+                padding: 8px 16px 8px 16px;
+                overflow: hidden;
+                background-color: peachpuff;
+                display:flex !important;
+                flex-direction: column !important;
+                }
+                li a {
+                    display: block;
+                    color: black;
+                    text-align: center;
+                    padding: 20px 25px;
+                    text-decoration:pink
+                }
+                li{
+                    float: left;
+                }
+                li:hover{
+                    background-color: rgba(241, 117, 152, 0.856);
+                }
+
+                article{
+                    float: left;
+                    padding: 20px;
+                    width: 70%;
+                    background-color:lightpink;
+                    height: 500px;
+                }
+
+                section::after{
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+
+                footer{
+                    background-color:darksalmon ;
+                    padding: 5px;
+                    text-align: center;
+                    color: white;
+                }
+
+                * {
+                    box-sizing: border-box;
+                }
+
+                @media (max-width: 600px) {
+                    nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+                li a#dropdown{
+                    width: 96%;
+                    height: 50%;
+                    background-color: #9BC7D3;
+                    padding-left :5px;
+}
